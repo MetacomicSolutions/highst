@@ -617,7 +617,7 @@ button:focus {
   }
   
   .typing-demo {
-    width: 16ch;
+    width: 17ch;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     color: white;
@@ -625,7 +625,7 @@ button:focus {
     overflow: hidden;
     border-right: 3px solid;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.7em;
+    font-size: 1.55em;
   }
   
   @keyframes typing {
