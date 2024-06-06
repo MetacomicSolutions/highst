@@ -1,0 +1,16 @@
+{
+  "name": "294 High St",
+  "short_name": "294 High St",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "description": "294 High St",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "./imgs/294highstsq.png",
+      "sizes": "1000X1000",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <link rel="manifest" href="./manifest.json">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/jpg" href="./imgs/294highstbadge.png">
+
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="PWA">
+
+    <!-- iOS -->
+    <link rel="apple-touch-icon" href="./imgs/294highstbadge.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-title" content="294Highst">
+
+    <link rel="stylesheet" type="text/css" href="css/stylez2.css">
+    <link rel="shortcut icon" href="imgs/294highstbadge.png" type="image/x-icon">
+
+    <!-- Google fonts -->
+    <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800%7CPlayfair+Display:400,700%7CRoboto:100,300,400,400i,500,700">
+
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background:linear-gradient(rgb(255, 255, 255), rgb(130, 228, 255), rgb(255, 255, 255), rgb(0, 213, 255), rgb(255, 255, 255), rgb(214, 214, 214))
+        }
+
+        .vertical-gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .vertical-gallery img {
+            width: 50vw;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .vertical-gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .coverlogo {
+            margin-bottom: 6px;
+            background-color: black;
+            height: 64px;
+            filter: grayscale(0%);
+            margin-top: 22px;
+            border-radius: 32px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+    <div style="margin: 0; background-position-x: center; color: white; font-weight: bold; position: relative; text-align: center; animation: fadeIn 3s forwards;">
+        <a href="index.html">
+            <img class="coverlogo" style="height: 7vh;" src="imgs/294highstbadge.png" alt="" />
+        </a>
+    </div>
+
+
+    <div class="rapper">
+        <div class="typing-demo">
+        </div>
+    </div>
+
+    <div class="vertical-gallery">
+        <H2>Security Deposit</H2>
+        <img src="imgs/docs-1.png" alt="Image 1">
+        <H2>Lease Agreement</H2>
+        <img src="imgs/docs-2.png" alt="Image 1">
+        <H2>Application</H2>
+        <img src="imgs/docss3.png" alt="Image 1">
+    </div>
+
+ 
+
+</body>
+
+</html>
